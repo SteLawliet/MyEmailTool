@@ -110,13 +110,13 @@ public class Mail {
         return Session.getInstance(properties, authenticator);
     }
 
-//    public static void main(String[] args) {
-//       Session s = getEmailSession("572237582@qq.com","vfhvedmeixzsbbbd");
-//        SendMail(s,"572237582@qq.com",
-//                "1909282497@qq.com",
-//                "mail工具测试",
-//                "少时诵诗书所",
-//                "/Volumes/Data/DATA/【备份】/ACGHH-0146-BDFTS.BIN");
-//    }
+    public static void main(String[] args) {
+        Session s = getEmailSession("572237582@qq.com", "vfhvedmeixzsbbbd");
+        SendMail(s, "572237582@qq.com",
+                "1909282497@qq.com",
+                "mail工具测试",
+                "少时诵诗书所",
+                "/Volumes/Data/DATA/【备份】/ACGHH-0146-BDFTS.BIN");
+    }
 }
 
